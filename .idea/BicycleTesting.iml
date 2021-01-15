@@ -15,6 +15,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.3, ruby-3.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.4.4, ruby-3.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jaro_winkler (v1.5.4, ruby-3.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.14.2, ruby-3.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.20.1, ruby-3.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parser (v3.0.0.0, ruby-3.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rainbow (v3.0.0, ruby-3.0.0-p0) [gem]" level="application" />

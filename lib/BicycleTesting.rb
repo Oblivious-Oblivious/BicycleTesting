@@ -6,6 +6,4 @@ require_relative "BicycleTesting/Wheel"
 
 module BicycleTesting
     class Error < StandardError; end
-    class Gear; end
-    class Wheel; end
 end

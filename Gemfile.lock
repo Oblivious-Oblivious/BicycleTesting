@@ -9,6 +9,7 @@ GEM
     ast (2.4.1)
     diff-lcs (1.4.4)
     jaro_winkler (1.5.4)
+    minitest (5.14.2)
     parallel (1.20.1)
     parser (3.0.0.0)
       ast (~> 2.4.1)
@@ -46,6 +47,7 @@ PLATFORMS
 
 DEPENDENCIES
   BicycleTesting!
+  minitest
   rake (~> 13.0)
   rake-compiler
   rspec (~> 3.0)
