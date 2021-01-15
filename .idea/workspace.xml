@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b701c5ff-e4d9-4a59-8204-5076aeace67f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/gear_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/gear_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/gear_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/gear_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/wheel_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/wheel_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/wheel_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/wheel_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BicycleTesting.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BicycleTesting.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/gear_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/gear_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/wheel_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/wheel_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +17,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby Class" />
-        <option value="Ruby File" />
         <option value="Minitest Spec" />
         <option value="Minitest" />
         <option value="RSpec" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -105,7 +102,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -131,7 +128,7 @@
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -169,8 +166,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Run Specs" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run Tests" />
+        <item itemvalue="RSpec.Run Specs" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +181,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610674864799</updated>
       <workItem from="1610674865947" duration="1119000" />
-      <workItem from="1610676051719" duration="6435000" />
+      <workItem from="1610676051719" duration="6496000" />
+      <workItem from="1610715193409" duration="7420000" />
     </task>
     <servers />
   </component>
@@ -206,10 +204,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BicycleTesting@wheel_test.rcov" NAME="wheel_test Coverage Results" MODIFIED="1610681998425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@Wheel.rcov" NAME="Wheel Coverage Results" MODIFIED="1610681351308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
-    <SUITE FILE_PATH="coverage/BicycleTesting@gear_test.rcov" NAME="gear_test Coverage Results" MODIFIED="1610682201242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
+    <SUITE FILE_PATH="coverage/BicycleTesting@gear_test.rcov" NAME="gear_test Coverage Results" MODIFIED="1610731496543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@All_tests_in_spec__BicycleTesting.rcov" NAME="All tests in spec: BicycleTesting Coverage Results" MODIFIED="1610682146214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@All_tests_in_test__BicycleTesting.rcov" NAME="Run Tests Coverage Results" MODIFIED="1610682475466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@test_notifies_observers_whe___.rcov" NAME="test_notifies_observers_whe... Coverage Results" MODIFIED="1610682249734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
+    <SUITE FILE_PATH="coverage/BicycleTesting@Run_Tests.rcov" NAME="Run Tests Coverage Results" MODIFIED="1610731522532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@All_specs_in_spec__BicycleTesting.rcov" NAME="Run Specs Coverage Results" MODIFIED="1610682481302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@gear_spec.rcov" NAME="gear_spec Coverage Results" MODIFIED="1610681894835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BicycleTesting" />
     <SUITE FILE_PATH="coverage/BicycleTesting@BicycleTesting.rcov" NAME="Rspec Tests Coverage Results" MODIFIED="1610681335633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="BicycleTesting" />

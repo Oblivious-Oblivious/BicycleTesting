@@ -1,8 +1,10 @@
 require_relative "test_helper"
 
 class WheelTest < Minitest::Test
+    include DiameterizableInterfaceTest;
+
     def setup
-        @wheel = Wheel.new 26, 1.5;
+        @wheel = @object = Wheel.new 26, 1.5;
     end
 
     def test_implements_the_diameterizable_interface
