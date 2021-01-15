@@ -1,7 +1,6 @@
-require "minitest/autorun"
-require_relative "spec_helper"
+require_relative "test_helper"
 
-class WheelTest < Minitest::Unit::TestCase
+class WheelTest < Minitest::Test
     def setup
         @wheel = Wheel.new 26, 1.5;
     end
@@ -12,6 +11,6 @@ class WheelTest < Minitest::Unit::TestCase
 
     def test_calculates_diameter
         wheel = Wheel.new 26, 1.5;
-        self.assert_in_delta 29, wheel.diameter, 0.01;
+        assert_in_delta 29, wheel.diameter, 0.01;
     end
 end

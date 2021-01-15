@@ -1,5 +1,4 @@
-require "minitest/autorun"
-require_relative "spec_helper"
+require_relative "test_helper"
 
 class DiameterDouble
     def diameter
@@ -7,7 +6,7 @@ class DiameterDouble
     end
 end
 
-class GearTest < Minitest::Unit::TestCase
+class GearTest < Minitest::Test
     def setup
         @observer = MiniTest::Mock.new;
         @gear = Gear.new({
@@ -36,7 +35,7 @@ class GearTest < Minitest::Unit::TestCase
             wheel:     Wheel.new(26, 1.5)
         });
 
-        self.assert_in_delta 137.1, gear.gear_inches, 0.01;
+        assert_in_delta 137.1, gear.gear_inches, 0.01;
     end
 
     def test_gear_inches_double
@@ -46,6 +45,6 @@ class GearTest < Minitest::Unit::TestCase
             wheel:     DiameterDouble.new
         });
 
-        self.assert_in_delta 47.27, gear.gear_inches, 0.01;
+        assert_in_delta 47.27, gear.gear_inches, 0.01;
     end
 end
